@@ -1,0 +1,216 @@
+/* цвет лого 000000 */
+/* цвет лого 2196F3 */
+/* цвет активной ссылки 2196F3 */
+/* цвет ссылки в навигиции 212121 */
+/* цвет номера телефона в footer 757575 */
+/* цвет героя FFFFFF */
+/* цвет эл. адреса и телефона в footer 255, 255, 255, 0.6*/
+/* цвет героя FFFFFF */
+
+/*
+font logo Raleway 700
+font text Roboto 400, 500, 700, 900, 
+*/
+
+:root {
+  --primary-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-paragraph-color: #757575;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+/* Header */
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.logo {
+  color: var(--primary-text-color);
+  text-decoration: none;
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.nav .link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.nav .link:hover,
+.nav .link:focus {
+  color: var(--accent-color);
+}
+
+.nav .link.current {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.mail-tele {
+  color: var(--primary-paragraph-color);
+  text-decoration: none;
+
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.mail-tele:hover,
+.mail-tele:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero h1 {
+  color: var(--primary-white-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.dignity-par,
+.team-par {
+  color: #757575;
+
+  line-height: 1.71;
+}
+
+.dignity h3 {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.occupation h2,
+.team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17x;
+  text-align: center;
+}
+
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team-par {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/* footer */
+
+footer {
+  background-color: #000000;
+}
+
+address {
+  font-style: normal;
+  line-height: 1.71;
+}
+
+adress a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+footer .logo {
+  color: var(--primary-white-color);
+}
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+
+  font-size: 14px;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+
+.street {
+  color: var(--primary-white-color);
+}
+
+/* PORTFOLIO */
+
+.port-button {
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+}
+
+.port-button:hover {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.port-link a {
+  text-decoration: none;
+}
+
+.port-link h2 {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.port-link p {
+  color: var(--primary-paragraph-color);
+
+  font-size: 16px;
+  line-height: 1.88;
+}

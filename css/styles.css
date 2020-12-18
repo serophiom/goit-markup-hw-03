@@ -29,6 +29,22 @@ body {
   letter-spacing: 0.03em;
 }
 
+.conteiner {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1;
+}
+
 /* Header */
 
 .logo-web {
@@ -64,6 +80,8 @@ body {
 
 .list {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .mail-tele {
@@ -83,6 +101,7 @@ body {
 
 .hero {
   background-color: #2f303a;
+  text-align: center;
 }
 
 .hero h1 {
@@ -91,22 +110,36 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .hero-button {
+  display: inline-block;
+  border: 0px;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+}
+
+/* Dignity */
+
+.dignity {
+  padding-top: 95px;
+  padding-bottom: 95px;
 }
 
 .dignity-par,
@@ -114,12 +147,18 @@ body {
   color: #757575;
 
   line-height: 1.71;
+
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .dignity h3 {
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
+
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .occupation h2,
@@ -128,6 +167,9 @@ body {
   font-size: 36px;
   line-height: 1.17x;
   text-align: center;
+
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .team h3 {
@@ -135,6 +177,9 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .team-par {

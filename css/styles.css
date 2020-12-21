@@ -215,6 +215,10 @@ body {
 
 /* Occupation */
 
+.occupation {
+  padding-bottom: 94px;
+}
+
 .occupation h2,
 .team h2 {
   margin-top: 0;
@@ -226,13 +230,8 @@ body {
   text-align: center;
 }
 
-.conteiner h2 {
-  margin-top: 94px;
-}
-
 .occupation-list {
   display: flex;
-  margin-bottom: 94px;
 }
 
 .occupation-list .item:not(:last-child) {
@@ -242,12 +241,14 @@ body {
 /* Team */
 
 .team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
   background-color: #f5f4fa;
 }
 
 .team h2 {
   margin: 0 0 50px 0;
-  padding-top: 94px;
 }
 
 .team h3 {
@@ -262,7 +263,6 @@ body {
 
 .team-list {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .team-list .item {
@@ -282,20 +282,20 @@ body {
 /* footer */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background-color: #000000;
 }
 
 footer .logo {
   display: block;
   margin: 0 0 20px 0;
-  padding-top: 60px;
 
   color: var(--primary-white-color);
 }
 
 .address {
-  padding-bottom: 60px;
-
   font-style: normal;
   line-height: 1.71;
 }
@@ -328,6 +328,11 @@ footer .logo {
 
 /* PORTFOLIO */
 
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .portfolio-button {
   padding: 6px 22px;
   border: 0;
@@ -350,7 +355,6 @@ footer .logo {
 
 .button-list {
   display: flex;
-  padding-top: 94px;
   padding-bottom: 50px;
   justify-content: center;
 }
@@ -383,7 +387,7 @@ footer .logo {
 }
 
 .portfolio-link h2 {
-  margin: 20px 0 0 24px;
+  margin: 0;
 
   color: var(--primary-text-color);
 
@@ -394,7 +398,11 @@ footer .logo {
 }
 
 .portfolio-link p {
-  margin: 4px 0 20px 24px;
+  margin: 0;
+}
+
+.portfolio-item {
+  padding: 20px 24px;
 
   color: var(--primary-paragraph-color);
 

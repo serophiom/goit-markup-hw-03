@@ -61,7 +61,19 @@ body {
   line-height: 1.19;
 }
 
+.nav-list {
+  display: flex;
+}
+
+.nav-list .item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--primary-text-color);
   text-decoration: none;
 
@@ -82,6 +94,15 @@ body {
   list-style: none;
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 0;
+}
+
+.adress-list {
+  display: flex;
+}
+
+.adress-list .item + .item {
+  margin-left: 50px;
 }
 
 .mail-tele {
@@ -105,6 +126,9 @@ body {
 }
 
 .hero h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+
   color: var(--primary-white-color);
 
   font-weight: 900;
@@ -113,9 +137,6 @@ body {
   /* text-align: center; */
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
-  margin-top: 0;
-  margin-bottom: 30px;
 }
 
 .hero-button {
@@ -153,33 +174,33 @@ body {
 }
 
 .dignity h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
-
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .occupation h2,
 .team h2 {
+  margin-top: 0;
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17x;
   text-align: center;
-
-  margin-top: 0;
-  margin-bottom: 50px;
 }
 
 .team h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .team-par {
